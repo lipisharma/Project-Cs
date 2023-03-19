@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(237, 237, 88);
+}
+.col-1 > div {
+    border:5px solid grey;
+    padding:0%
+  }

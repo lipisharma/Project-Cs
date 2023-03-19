@@ -1,0 +1,122 @@
+<!-- The purpose of this file is to 
+
+     Author: Lipi Sharma
+-->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- Set tab in window -->
+    <title>P2</title>
+    <meta charset="UTF-8" />
+    <!-- Sets width to the width of the device at scale 1:1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Make Bootstrap styles accessible to this file  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- make these styles available to this file -->
+    <link href="./css/P2.css" rel="stylesheet" />
+    <!-- Make the jQuery library available to this file -->
+    <script src="./scripts/jquery-3.6.0.js"></script>
+    <!-- make the JavaScript file available to this file -->
+    <script src="./scripts/P2.js"></script>
+  </head>
+  <body>
+    <div class="row no-pad" id="myRow">
+      <div class="col-1"></div>
+      <div class="col-1">
+        <img
+        id="bear"
+        src="./images/bear.jpg"
+        draggable="true"
+        ondragstart="drag(event)"
+        
+      />
+      </div>
+      <div class="col-2"></div>
+      <div class="col-1" id="1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img
+            id="i1"
+            src="./images/aqq.jpg"
+            draggable="false"
+            
+          />
+      </div>
+      <div class="col-1" id="2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img
+            id="i2"
+            src="./images/eliey.jpg"
+            draggable="false"
+            
+          />
+      </div>
+      <div class="col-1" id="3" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img
+            id="i3"
+            src="./images/kesalk.jpg"
+            draggable="false"
+
+          />
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <div class="row no-pad" id="myRow">
+      <div class="col-4"></div>
+      <div class="col-1" id="4" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img
+            id="4i"
+            src="./images/kil.jpg"
+            draggable="false"
+          />
+      </div>
+      <div class="col-1" id="5" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img
+            id="5i"
+            src="./images/ltu.jpg"
+            draggable="false"
+          />
+      </div>
+      <div class="col-1" id="6" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img
+            id="i6"
+            src="./images/mijisi.jpg"
+            draggable="false"
+          />
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <div class="row no-pad" id="myRow">
+      <div class="col-4"></div>
+      <div class="col-1" id="7" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img
+            id="i7"
+            src="./images/nin.jpg"
+            draggable="false"
+            
+          />
+      </div>
+      <div class="col-1" id="8" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img
+            id="i8"
+            src="./images/teluisi.jpg"
+            draggable="false"
+           
+          />
+      </div>
+      <div class="col-1" id="9" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img
+            id="i9"
+            src="./images/wiktm.jpg"
+            draggable="false"
+           
+          />
+      </div>
+      <div class="col-4"></div>
+    </div>
+  </body>
+</html>
